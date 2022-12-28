@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#master {
+    position: absolute;
+    top: 12.50%;
+    left: 6%;
+    right: 6%;
+}
+h1 {
+    border-bottom: 3px solid crimson;
+    font-family: times;
+    font-size: 2.2rem;
+    text-align: end;
+    margin-bottom: 10px;
+}
+h2 {
+    font-family: times;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+

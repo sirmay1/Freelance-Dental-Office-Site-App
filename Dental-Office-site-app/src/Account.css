@@ -1,0 +1,61 @@
+/*ScheduleApp.html, start*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+}
+.main {
+   line-height: 1.8; 
+}
+.subHeader-Required {
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    line-height: 1.8;
+}
+.subHeader-para-Required {
+    display: inline;
+    font-family: monospace;
+    line-height: 1.8;
+    background-color: rgb(250, 244, 244);
+    max-width: auto auto;
+    border-radius: 5px;
+    margin: 5% 10%;
+}
+
+.ul-main-container {
+    margin-left: 5%;
+}
+.li {
+    line-height: 2;
+    font-family: monospace;
+    color: red;
+}
+.form-container {
+    position: absolute;
+    top: 100%;
+    left: 2.5%;
+}
+.textarea {
+   margin-top: 2.5%;
+   width: 650px;
+   height: 300px;
+   text-align: start;
+   color: black;
+   padding: 10px 10px;
+   line-height: 1.8;
+   font-family: monospace;
+   font-size: 0.8rem;
+}
+/*end of "./ScheduleApp.html"file*/
+
+/*Start of /ScheduleApp.html file bottom form*/
+

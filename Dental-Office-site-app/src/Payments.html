@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="Payments.css">
+    <title>Doctors Office</title>
+</head>
+<body>
+    <script src="Navbar.js"></script>
+    
+<section class="section_payment_container">
+    <h1 class="title">Payment methods</h1>
+    <p class="span_container">
+       <span class="span1" style="color: gray; font-family: monospace;">Account</span><span class="span2" style="font-family: times;">payment method</span>
+    </p>
+    <form action="Payments.html" method='GET' class="form-container">
+        <label for="email" class="label label_border_email">Email</label>
+        <input type="email" name="email" placeholder="Email" class="input email" value="email" onchange="">
+        <div class="shipping_container">
+            <label for="name" class="label label2 shipping label_fullName">Name</label>
+            <input type="text" class="input2 shipping fullName" value="name" name="name">
+            <label for="country" class="label label2">Country or region</label>
+            <input type="text" class="input2 country" placeholder="Country" name="country" value="country" onchange=""/>
+        </div>
+        <div class="payment_container">
+            <label for="creditCard" class="label label3 label_paymentOption">Payment Option</label>
+            <input type="number" class="input3 number" name="creditCard" value="number" onchange=""/>
+            <label for="expiration" class="label label3">Expiration</label>
+            <input type="number" class="input3 expiraion_numbrer" name="expiration">
+            <label for="cvc" class="label label3">CVC</label>
+            <input type="number" class="input3 cvc" name="cvc" value="cvc"/>
+            <button class="save_btn">Save</button>
+        </div>
+        
+    </form>
+</section>
+</body>
+</html>
